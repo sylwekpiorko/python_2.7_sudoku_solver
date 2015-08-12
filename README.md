@@ -1,4 +1,7 @@
 # sudoku_solver
+
+FOR PROPER VIEW USE RAW FILE VIEW !!
+
 Implementation of Sudoku solver program in python 2.7
 
 Input format for data will be 91 characters combines only > dots(.) and cifers (1-9) :
