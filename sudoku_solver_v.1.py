@@ -9,9 +9,9 @@ def sudoku_grid(data):
         #print "%d>" % i,
         print data[i], 
         
-        if (i+1) % 9== 0 and i > 0:
-            print "\n"
-        if (i+1) % 3 == 0 and i >0 and not (i+1) % 9 == 0:
+        if (i+1) % 9 == 0 and i > 0:
+            print
+        if (i+1) % 3 == 0 and i > 0 and not (i+1) % 9 == 0:
             print "|",
         if (i+1) % 27 == 0 and i > 0 and i < 80: 
             print "- - - + - - - + - - -"
