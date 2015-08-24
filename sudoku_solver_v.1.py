@@ -1,9 +1,9 @@
 # input data
 
-# I propose to change "sudoku" var to input_list_of_digits
+# I propose to change "sudoku" var to input_list_of_digits - OK, no prob :)
 input_list_of_digits = "..5..79...2..9..4.3..8....66.....4...7.....3...8.....28....2..3.6..7..9...45....."
 
-print "Number of sudoku elements: %d" % len(sudoku)
+print "Number of sudoku elements: %d" % len(input_list_of_digits)
 
 def sudoku_grid(data):
     for i in range(len(data)):
